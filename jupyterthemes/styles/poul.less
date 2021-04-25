@@ -187,11 +187,29 @@ div.cell {
 	}
 
 	.text_cell_render {
-		padding: 3em 0.4em !important;
+		padding: 3vh 3vw !important;
 		text-align: center;
 
-		p {
+		p, h1, h2, h3, h4 {
 			text-align: center;
+		}
+
+		ul {
+			display: inline-table;
+			margin: .4em auto;
+
+			li {
+				text-align: left;
+			}
+		}
+
+		pre {
+			max-width: 100%;
+			text-align: left;
+		}
+
+		blockquote p {
+			text-align: left;
 		}
 	}
 
